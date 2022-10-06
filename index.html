@@ -13,13 +13,15 @@
   <header>
     <h1>Avalie a sua Mentoria</h1>
     <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
-    <img src="imagem.png" alt="Nuvem com estrelas para nível de avaliação de 1 a 5">
+    <img src="img1.png" alt="Nuvem com estrelas para nível de avaliação de 1 a 5">
   </header>
   <div class="page">
     <form action="#" method="get">
+      <div class="cabecalho">
       <fieldset>
         <legend>Informações Pessoais</legend>
-        <div class="bloco">
+      </div>
+        <div class="bloco-1">
             <div class="item">
               <label for="name">Nome</label>
               <input type="text" name="name" id="name">
@@ -36,7 +38,7 @@
       </fieldset>
       <fieldset>
         <legend>Informações do Mentor</legend>
-        <div class="bloco">
+        <div class="bloco-2">
           <div class="item">
             <label for="mentor">Selecione quem foi seu Mentor</label>
             <select>
@@ -57,7 +59,7 @@
       </fieldset>
       <fieldset>
         <legend>Agendando a próxima Mentoria</legend>
-          <div class="bloco">
+          <div class="bloco-3">
               <div class="item">
                 <label for="data">Data <span>(DD/MM/AAAA)</span></label>
                 <input type="date" name="data" id="data">
@@ -72,7 +74,9 @@
               </div>
           </div>
       </fieldset>
-      <input type="button" value="Salvar">
+      <div class="button">
+        <input type="button" value="Salvar">
+      </div>
     </form>
   </div>
 </body>
