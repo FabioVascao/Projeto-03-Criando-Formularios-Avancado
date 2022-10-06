@@ -7,15 +7,18 @@
   font-size: 62.5%;
   --ff-heading:font-family: 'Staatliches', cursive;
   --ff-body:font-family: 'Poppins', sans-serif;
-  --color-primary:#293241;
+  --backgorund:#293241;
+  --color-heading: #253B51;
   --color-secondary-first:#E5E5E5;
   --color-secondary-second: #F67669;
+  --color-body-second:#4E4958;
+  --color-span: #C1BCCC;
 }
 header {
-  background: var(--color-primary);
+  background: var(--backgorund);
   text-align: center;
   padding-top: 10rem;
-  Height: 46.5rem;
+  max-height: 46.5rem;
 }
 header h1 {
   height: 4.6rem;
@@ -31,11 +34,61 @@ header p {
   color: white;
 }
 header img {
-  width: 225px;
-  height: 100px;
+  max-width: 225px;
+  max-height: 100px;
 }
 body {
   font-size: 1.6rem;
   font-family: var(--ff-body);
   background: var(--color-secondary-first);
+}
+.page {
+  max-width: 75.0rem;
+  background: #FFFFFF;
+  border-radius: 0px 0px 20px 20px;
+  margin: auto;
+  margin-bottom: 30rem;
+}
+form {
+  max-width: 62rem;
+  margin: auto;
+}
+fieldset {
+  border-style: none;
+  text-align: center;
+}
+legend {
+  font-family: var(--ff-heading);
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  color: var(--color-heading);
+  text-transform: uppercase;
+}
+.bloco {
+  margin: 3.0rem auto;
+}
+label {
+  font-family: var(--ff-body);
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: var(--color-body-second);
+  padding: 1rem;
+}
+label span {
+  font-family: var(--ff-body);
+  font-size: 1.2rem;
+  line-height: 2.0rem;
+  color: var(--color-span);
+}
+.item {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  Height: 50px;
+  margin: 10px 0px;
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  text-align: center;
 }
