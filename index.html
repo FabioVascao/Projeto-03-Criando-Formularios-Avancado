@@ -24,17 +24,15 @@
         <div class="bloco-1">
             <div class="item">
               <label for="name">Nome</label>
-              <input type="text" name="name" id="name">
+              <input type="text" name="name" id="name" required>
             </div>
             <div class="item">
               <label for="lastname">Sobrenome</label>
               <input type="text" name="lastname" id="lastname">
             </div>
-            <div class="item">
-              <label for="email">E-mail <span>(Digite um email válido)</span></label>
-              <input type="email" name="email" id="email">
-            </div>
         </div>
+              <label for="email">E-mail <span>(Digite um email válido)</span></label><br>
+              <input type="email" name="email" id="email" required>
       </fieldset>
       <fieldset>
         <legend>Informações do Mentor</legend>
@@ -51,7 +49,7 @@
             <label for="feddback">Feedback sobre o Mentor</label>
             <textarea name="feedback" id="feddback" cols="30" rows="10"></textarea>
           </div>
-          <div class="item">
+          <div class="duvidas">
             <input type="checkbox" name="duvidas" id="duvidas">
             <label for="duvidas">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
           </div>
