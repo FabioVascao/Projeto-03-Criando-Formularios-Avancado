@@ -1,7 +1,22 @@
-# Projeto-03-Criando-Formularios-Avancado
- 
-Projeto entregue a nós pela plataforma Figma para codarmos do zero em HTML e CSS.
+# Desafio Criando Formulários Avançado
 
-Alterei algumas medidas de margin e padding para deixar um pouco menor do que o projeto original, alguns hover e tamanhos de fontes também.
+Desafio do Stage03 que faz parte do Programa Explorer da Rocketseat<br/> 
 
-Tecnologias utilizadas: HTML - CSS - Git e Github - Figma.
+## Screenshots
+
+![preview](preview.jpg)
+
+
+[🔗 Clique aqui para acessar o Projeto](https://fabiovascao.github.io/Projeto-03-Criando-Formularios-Avancado/)<br/> 
+[🔗 Clique aqui para acessar o Figma](https://www.figma.com/file/zZujRIVdrGitVAEqCEM6CS/Stage-03-Formul%C3%A1rio-avan%C3%A7ado-Copy?fuid=1151137169943796805)
+
+## 🛠 Tecnologias
+
+- HTML
+- CSS
+- Git e Github
+
+
+## Autor
+
+- [@FabioVascão](https://www.github.com/fabiovascao)
